@@ -104,3 +104,23 @@ body {
   width: 474px;
   top: 654px;
   left: 281px; }
+
+/*===================== menu =====================*/
+.menu {
+  background: url(../images/menu-bgl.png);
+  background-size: 100% 100%;
+  min-height: 105px;
+  margin-top: 39px; }
+  .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; }
+    .menu ul li {
+      display: inline-block; }
+      .menu ul li a {
+        display: block;
+        font-size: 34px;
+        color: #fff;
+        padding: 0 20px;
+        text-decoration: none; }
