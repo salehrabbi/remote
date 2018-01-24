@@ -1,0 +1,12 @@
+$f: 'HelveticaNeueW01-45Light';
+body{
+    font-family: $f;
+    font-size: 30px;
+}
+.main-section{
+    background: url(../images/background.png);
+    background-size: contain;
+}
+.remote{
+    max-height: 850px;
+}

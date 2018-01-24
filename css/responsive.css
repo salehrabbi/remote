@@ -1,0 +1,10 @@
+body {
+  font-family: "HelveticaNeueW01-45Light";
+  font-size: 30px; }
+
+.main-section {
+  background: url(../images/background.png);
+  background-size: contain; }
+
+.remote {
+  max-height: 850px; }
