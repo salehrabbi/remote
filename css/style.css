@@ -1,0 +1,106 @@
+body {
+  font-family: "HelveticaNeueW01-45Light";
+  font-size: 30px; }
+
+.main-section {
+  background: url(../images/background.png);
+  background-size: cover;
+  padding-top: 53px;
+  overflow: hidden; }
+
+.content {
+  display: inline-block;
+  position: relative; }
+
+.remote {
+  max-height: 850px; }
+
+.indicate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 395px; }
+  .indicate .line {
+    height: 2px;
+    background: #008dea;
+    position: relative;
+    width: 321px;
+    display: inline-block;
+    top: -5px;
+    left: 8px; }
+    .indicate .line:after {
+      content: "";
+      position: absolute;
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      background: #008dea;
+      top: -8px;
+      right: 0;
+      -webkit-box-shadow: 0 4px 27px #00c0ff;
+              box-shadow: 0 4px 27px #00c0ff; }
+
+/*===================== remote left indicates =====================*/
+.mute {
+  top: 55px;
+  left: -366px;
+  width: 395px; }
+
+.Volume {
+  top: 111px;
+  width: 557px;
+  left: -528px; }
+
+.Directional {
+  width: 707px;
+  top: 270px;
+  left: -532px; }
+  .Directional .line {
+    width: 426px; }
+
+.Select {
+  width: 611px;
+  top: 346px;
+  left: -464px; }
+  .Select .line {
+    width: 414px; }
+
+.Home {
+  top: 436px;
+  width: 721px;
+  left: -693px; }
+
+/*===================== remote right indicates =====================*/
+.indicate-right {
+  left: 279px; }
+  .indicate-right .line {
+    left: -8px; }
+    .indicate-right .line:after {
+      right: auto;
+      left: 0; }
+
+.Power {
+  width: 519px;
+  left: 278px;
+  top: 57px; }
+
+.Channel {
+  width: 620px;
+  top: 114px;
+  left: 279px; }
+
+.Video {
+  width: 631px;
+  top: 167px;
+  left: 282px; }
+
+.Back {
+  width: 453px;
+  top: 437px;
+  left: 282px; }
+
+.Backspace {
+  width: 474px;
+  top: 654px;
+  left: 281px; }
